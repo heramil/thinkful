@@ -1,0 +1,26 @@
+.breadcrumb ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.create {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0 1rem 0;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  margin: 0rem 0 1rem 0;
+}
+
+.cancel-submit button {
+  margin: 0rem 1rem 1rem 0;
+}
